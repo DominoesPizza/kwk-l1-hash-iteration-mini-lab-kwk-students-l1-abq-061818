@@ -1,18 +1,51 @@
+nswer_5 = gets.chomp.to_i
+if answer_5 == 1
+calories += 162
 
-def create_olympics_hash
-  # Implement this method so that it returns a hash with the data provided on README.md
+elsif answer_5 == 2
+calories += 612
+
+elsif answer_5 == 3
+calories +=429
+
+elsif answer_5 == 4
+calories +=272
+
+elsif answer_5 == 5
+calories +=285
 end
+puts "What did you eat for you lunch sides? (A side salad
+Miso Soup Fries, or Sweet Potato Fries)?"
+answer_6 = gets.chomp.to_i
+if answer_6 == 1
+calories += 18
 
-def add_a_key_value_pair
-  # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+elsif answer_6 == 2
+calories +=91
+
+elsif answer_6 == 3
+calories +=430
+
+elsif answer_6== 4
+calories +=140
+
+elsif answer_6 == 5
+calories +=124
 end
+puts  "What did you drink at lunch? (Orange Juice, Sweeet Tea, Cola, Water or Smoothie)?"
+ answer_7 = gets.chomp.to_i
+ if answer_7 == 1
+calories +=112
 
-def iterate_through_hash
-  # Implement this method so that it iterates over the hash created in add_a_key_value_pair
-  # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-end
+elsif answer_7 == 2
+calories +=90
 
-def iterate_through_keys
-  # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
-  # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
+elsif answer_7== 3
+calories +=182
+
+elsif answer_7== 4
+calories +=0
+
+elsif answer_7== 5
+calories +=90
 end
